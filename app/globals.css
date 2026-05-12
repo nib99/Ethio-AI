@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ethiopian-green: #006400;
+  --ethiopian-yellow: #FCD116;
+  --ethiopian-red: #DA121A;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-amharic {
+  font-family: var(--font-amharic);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #006400;
+  border-radius: 20px;
+}
